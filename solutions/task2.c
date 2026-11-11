@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
+ // declare and initialize our variables
   int N;
   int num1 = 0;
   int num2 = 1;
@@ -10,7 +11,7 @@ int main(){
   
   printf("%d\n", num1);
   printf("%d\n", num2);
-  for(int i = 0; i < N; i++){
+  for(int i = 0; i < N; i++){ // iterates over the logic of the fibonacci sequence
     num3 = num1 + num2;
     num1 = num2;
     num2 = num3;

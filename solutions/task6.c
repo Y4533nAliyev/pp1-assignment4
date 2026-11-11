@@ -2,16 +2,16 @@
 
 int main(){
   int N;
-  bool isValid = 1;
+  bool isValid = 1; // will need to check wheter to calculate or not
   printf("Enter a number: ");
   scanf("%d", &N);
 
   if(!(N < 10) || !(N > 0)){
     printf("Please enter a number within the range (0-10)\n");
-    isValid = 0;
+    isValid = 0; // the number isn't valid no calculation needed
   }
-  if(isValid){
-  printf("* | ");
+  if(isValid){ // check if it is valid
+  printf("* | "); // the rest are just spacing/formation of the characters
   for(int i = 1; i <= N; i++){
     printf("%2d ", i);
   }
