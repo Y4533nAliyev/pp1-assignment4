@@ -4,8 +4,8 @@
 
 int main(){
   srand(time(NULL));
-  int min = -12;
-  int max = 19;
+  int min = -11;
+  int max = 18;
   int guessCount = 0;
   int guess;
 

@@ -11,9 +11,9 @@ int main(){
   
   printf("%d\n", num1);
   printf("%d\n", num2);
-  for(int i = 0; i < N; i++){ // iterates over the logic of the fibonacci sequence
-    num3 = num1 + num2;
-    num1 = num2;
+  for(int i = 0; i < N-2; i++){ // iterates over the logic of the fibonacci sequence
+    num3 = num1 + num2; // set the third number to the number
+    num1 = num2; // replace the numbers
     num2 = num3;
     printf("%d\n", num3);
   }

@@ -4,7 +4,7 @@
 
 int main(){
   srand(time(NULL));
-  int min = 0;
+  int min = 1;
   int max = 6;
   int chance = 0;
   printf("Let the Game Begin! (cc 'Saw')\n");
@@ -17,7 +17,7 @@ int main(){
       printf("Yeah, I rock at this!\n");
       break; // we should also break here since, if we don't we would also get the losing message
     }
-    if(chance == 3 && random_num1 != random_num2){ 
+    if(chance == 3 && random_num1 != random_num2, random_num1 != 6){ 
       printf("Ahh, today is just not my day, I guess :(\n");
     }
   }

@@ -6,7 +6,7 @@ int main(){
   int m;
   int n;
   
-  printf("Give a value for m and n: ");
+  printf("Give a value for m and n: "); // takes values for m and n 
   scanf("%d %d", &m, &n);
 
   if(m > n){ // error handling for when m > n

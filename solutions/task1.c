@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(){
-  int N;
-  double D;
+  int N; // user assigned integer
+  double D; // user assigned double
   printf("Enter an integer: ");
   scanf("%d", &N);
 

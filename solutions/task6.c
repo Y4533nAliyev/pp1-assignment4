@@ -2,12 +2,12 @@
 
 int main(){
   int N;
-  bool isValid = 1; // will need to check wheter to calculate or not
+  int isValid = 1; // will need to check wheter to calculate or not
   printf("Enter a number: ");
   scanf("%d", &N);
 
   if(!(N < 10) || !(N > 0)){
-    printf("Please enter a number within the range (0-10)\n");
+    printf("Please enter a number within the range (1-9)\n");
     isValid = 0; // the number isn't valid no calculation needed
   }
   if(isValid){ // check if it is valid

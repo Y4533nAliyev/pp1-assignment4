@@ -11,7 +11,7 @@ int main() {
         printf("%d ", j);
     }
     if (i > 0) { // Print middle spaces (for rows after the first)
-      int spaces = 4 * i - 1;
+      int spaces = 4 * i - 2;
       for (int s = 0; s < spaces; s++) {
           printf(" ");
       }
